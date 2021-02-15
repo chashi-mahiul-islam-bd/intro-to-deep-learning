@@ -1,0 +1,10 @@
+1) conda create -n <environment_name> python==<version? // creating the environemnt
+2) conda list e > requirements.txt // this will keep record of all the library and framework you use in this project
+3) conda install spyder // installign ide
+4) conda install pytorch torchvision torchaudio cudatoolkit=10.2 -c pytorch // installing pytorch, torchvision, torchaudio and cuda toolkit
+5) conda install -c conda-forge notebook // ntoebook for trying iut ideas
+6) conda install -c anaconda pylint // for checking coding quality
+7) conda install -c anaconda black // for formatting python code
+8) conda install -c anaconda pytest // for creating unittest
+9) conda install -c anaconda coverage // for checking how much portion of your code is covered by pytest
+10) conda install -c anaconda sphinx // for documentation
